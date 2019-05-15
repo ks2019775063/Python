@@ -1,0 +1,9 @@
+1부터 n까지의 합 구하기
+
+n=int(input("n은?"))
+s=0
+i=0
+while n>i:
+    i=i+1
+    s=s+i
+print("1부터 n까지의 합계는", s,"이다") 
