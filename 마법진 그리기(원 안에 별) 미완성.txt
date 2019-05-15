@@ -1,0 +1,12 @@
+마법진 그리기(원 안에 별) 미완성
+
+import turtle as t
+
+t.speed(12)
+i=0
+while 5>i:
+    i=i+1
+    t.fd(150)
+    t.right(144)
+t.right(18+90)
+t.circle(77)
