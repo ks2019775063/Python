@@ -1,0 +1,21 @@
+클릭한 곳에 네모 그리는 터틀
+
+import turtle as t
+
+def square(length):
+    for i in range(4):
+        t.forward(length)
+        t.left(90)
+
+def drawit(x, y):
+    t.speed(13)
+    t.penup()
+    t.goto(x, y)
+    t.pendown()
+    t.begin_fill()
+    t.color("blue")
+    square(50)
+    t.end_fill()
+
+s=t.Screen()
+s.onscreenclick(drawit)
